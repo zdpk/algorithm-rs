@@ -8,6 +8,7 @@ fn _bubble_sort(arr: &mut [i32]) {
     }
 }
 
+#[cfg(test)]
 mod test {
     #[test]
     fn test_bubble_sort() {

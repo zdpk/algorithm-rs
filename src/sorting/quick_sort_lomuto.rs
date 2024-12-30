@@ -39,6 +39,7 @@ fn _partition(arr: &mut [i32]) -> usize {
     i
 }
 
+#[cfg(test)]
 mod test {
     use crate::sorting::quick_sort_lomuto::_quick_sort_lomuto;
 

@@ -75,6 +75,7 @@ fn _print_tree(arr: &[i32]) {
     println!("===================");
 }
 
+#[cfg(test)]
 mod test {
     use crate::sorting::heap_sort_iter::_print_tree;
 

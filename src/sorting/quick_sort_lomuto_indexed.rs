@@ -46,6 +46,7 @@ fn _partition(arr: &mut [i32], low: usize, high: usize) -> usize {
     i
 }
 
+#[cfg(test)]
 mod test {
     use crate::sorting::quick_sort_lomuto_indexed::_quick_sort_lomuto_indexed;
 

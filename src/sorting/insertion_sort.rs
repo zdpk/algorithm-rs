@@ -13,6 +13,7 @@ fn _insertion_sort(arr: &mut [i32]) {
     }
 }
 
+#[cfg(test)]
 mod test {
     #[test]
     fn test_insertion_sort() {
